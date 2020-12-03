@@ -6,7 +6,7 @@ const LazyImage = (props) => {
 
 const [ref, inView] = useInView({
   triggerOnce: true,
-  rootMargin: '0px 0px -120px 0px'
+  rootMargin: '0px 0px -50px 0px'
 });
 
 return  <div ref={ref} className='background-img-wrapper'>
