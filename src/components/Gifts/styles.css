@@ -120,11 +120,14 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   #gifts .information-wrapper {
+    margin-top: 1.5rem;
     width: 90%;
   }
-
+  .description {
+    display: none;
+  }
   .gift-icon-wrapper {
     height: 54.6px;
     width: 46.2px;
@@ -136,5 +139,11 @@
   .background-img-0,
   .background-img-2 {
     display: none;
+  }
+
+  #gifts .background-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 1.8rem 1.8rem;
   }
 }
