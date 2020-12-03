@@ -100,7 +100,7 @@
 }
 
 /*//////////////////////////////////////////Media Queries /////////////////////////////////////*/
-@media (min-width: 992px) {
+@media (min-width: 3000px) {
   .gift-icon-wrapper {
     height: 100.1px;
     width: 84.7px;
