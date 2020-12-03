@@ -98,24 +98,3 @@
     transform: rotate(15deg);
   }
 }
-
-/*//////////////////////////////////////////Media Queries /////////////////////////////////////*/
-@media (max-width: 768px) {
-  #gifts .information-wrapper {
-    width: 80%;
-  }
-
-  .gift-icon-wrapper {
-    height: 72.8px;
-    width: 61.6px;
-    margin: auto;
-    background-image: url(../../Images/gift_large.png);
-    background-size: 308px 436.8px;
-  }
-
-  #gifts .background-img {
-    width: 200px;
-    height: 200px;
-    margin: 0 1.8rem 1.8rem;
-  }
-}
