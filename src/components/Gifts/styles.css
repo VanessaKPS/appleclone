@@ -1,0 +1,121 @@
+#gifts {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+#gifts .information-wrapper {
+  width: 50%;
+}
+
+.gift-icon-wrapper {
+  height: 91px;
+  width: 77px;
+  margin: auto;
+  background-image: url(../../Images/gift_large.png);
+  background-size: 385px 546px;
+  animation-name: drawIn;
+  animation-duration: 1.2s;
+  animation-timing-function: steps(4);
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes drawIn {
+  0% {
+    background-position-x: 0%;
+    background-position-y: 0%;
+  }
+  0.01% {
+    background-position-x: 0%;
+    background-position-y: 0%;
+  }
+  16.67% {
+    background-position-x: 100%;
+    background-position-y: 0%;
+  }
+  16.68% {
+    background-position-x: 0%;
+    background-position-y: 20%;
+  }
+  33.33% {
+    background-position-x: 100%;
+    background-position-y: 20%;
+  }
+  33.34% {
+    background-position-x: 0%;
+    background-position-y: 40%;
+  }
+  50% {
+    background-position-x: 100%;
+    background-position-y: 40%;
+  }
+  50.01% {
+    background-position-x: 0%;
+    background-position-y: 60%;
+  }
+  66.67% {
+    background-position-x: 100%;
+    background-position-y: 60%;
+  }
+  66.68% {
+    background-position-x: 0%;
+    background-position-y: 80%;
+  }
+  83.33% {
+    background-position-x: 100%;
+    background-position-y: 80%;
+  }
+  83.34% {
+    background-position-x: 0%;
+    background-position-y: 100%;
+  }
+  100% {
+    background-position-x: 100%;
+    background-position-y: 100%;
+  }
+}
+#gifts .background-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+#gifts .background-img {
+  width: 350px;
+  height: 350px;
+  margin: 0 2.2rem 3rem;
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+/*//////////////////////////////////////////Media Queries /////////////////////////////////////*/
+@media (max-width: 768px) {
+  #gifts .information-wrapper {
+    width: 80%;
+  }
+
+  .gift-icon-wrapper {
+    height: 72.8px;
+    width: 61.6px;
+    margin: auto;
+    background-image: url(../../Images/gift_large.png);
+    background-size: 308px 436.8px;
+  }
+
+  #gifts .background-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 1.8rem 1.8rem;
+  }
+}

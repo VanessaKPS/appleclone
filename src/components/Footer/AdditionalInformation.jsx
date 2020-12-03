@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 
 const AdditionalInformation = () => {
   return <div className='additional-info-wrapper'>

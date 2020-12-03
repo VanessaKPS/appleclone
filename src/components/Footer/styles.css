@@ -1,0 +1,135 @@
+/*//////////////////////////////FOOTER- additional information /////////////////////*/
+.additional-info-wrapper {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(210, 210, 215);
+}
+
+.additional-info a {
+  color: rgb(81, 81, 84);
+  font-weight: bold;
+}
+
+/*/ //////////////////////////////FOOTER- directory wrapper /////////////////////*/
+
+.directory-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-title {
+  font-size: 16px;
+  color: rgb(29, 29, 31);
+  margin-top: 10px;
+}
+
+.show-content-icon {
+  width: 8px;
+  display: none;
+}
+
+.hide-content a,
+.category-content a {
+  font-size: 12px;
+  color: rgb(81, 81, 84);
+  line-height: 25px;
+}
+
+/*/ //////////////////////////////FOOTER- footer nav /////////////////////*/
+.footer-nav-wrapper {
+  padding: 10px 0;
+}
+
+.footer-shop-link {
+  padding: 10px 0;
+}
+
+.footer-shop-link a {
+  color: rgb(0, 102, 204);
+}
+
+.footer-legal {
+  padding-top: 10px;
+  border-top: 1px solid rgb(210, 210, 215);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-legal-copyright {
+  width: 25%;
+}
+
+.footer-legal-links {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-legal-links a {
+  color: rgb(91, 91, 94);
+  padding: 0 1.5% 0 0.4%;
+  border-right: 1px solid rgb(210, 210, 215);
+}
+
+a.site-map {
+  border: 0;
+}
+
+/*//////////////////////////////////////////Media Queries /////////////////////////////////////*/
+@media (max-width: 768px) {
+  .directory-wrapper {
+    flex-direction: column;
+  }
+
+  .category-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: rgb(81, 81, 84);
+    border-bottom: 1px solid rgb(210, 210, 215);
+  }
+
+  .drop-down-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 10px;
+    color: rgb(81, 81, 84);
+  }
+
+  .show-content-icon {
+    display: inline;
+    transition: all;
+  }
+  .show-content-icon-active {
+    width: 8px;
+    transform: rotate(45deg);
+  }
+
+  .hide-content {
+    display: none;
+  }
+
+  .footer-legal {
+    flex-direction: column;
+  }
+
+  .footer-legal-copyright {
+    width: 100%;
+    order: 2;
+    margin: 5px 0;
+  }
+
+  .footer-legal-links {
+    width: 100%;
+    order: 3;
+    margin: 5px 0;
+  }
+
+  .location {
+    order: 1;
+    margin: 5px 0;
+  }
+}

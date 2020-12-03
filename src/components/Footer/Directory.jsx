@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import directoryItems from '../DirectoryNav';
+import directoryItems from './DirectoryNav';
+import './styles.css';
 import {FiPlus} from 'react-icons/fi';
 
 const Directory = () => {

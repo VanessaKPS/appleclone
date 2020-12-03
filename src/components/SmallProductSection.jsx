@@ -1,10 +1,10 @@
 import React from 'react';
-import MacMini from './MacMini';
-import IPhone12Pro from './iPhone12Pro';
-import IPhone12 from './iPhone12';
-import HomePodMini from './HomePodMini';
-import AppleTV from './AppleTV';
-import Fitness from './Fitness+';
+import MacMini from './MacMini/MacMini.jsx';
+import IPhone12Pro from './iPhone12Pro/iPhone12Pro.jsx';
+import IPhone12 from './iPhone12/iPhone12.jsx';
+import HomePodMini from './HomepodMini/HomePodMini.jsx';
+import AppleTV from './AppleTv/AppleTV.jsx';
+import Fitness from './Fitness/Fitness+.jsx';
 
 
 const SmallProductSection = ()=> {

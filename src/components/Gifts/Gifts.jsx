@@ -1,8 +1,9 @@
 import React from 'react';
-import ProductLarge from './ProductLarge';
-import iPadSnowflake from '../Images/ipad__snowflake.png';
-import iPhoneSnowflake from '../Images/iphone_snowflake.png';
-import WatchSnowflake from '../Images/watch__snowflake.png';
+import ProductLarge from '../ProductLarge';
+import './styles.css';
+import iPadSnowflake from '../../Images/ipad__snowflake.png';
+import iPhoneSnowflake from '../../Images/iphone_snowflake.png';
+import WatchSnowflake from '../../Images/watch__snowflake.png';
 
 const Gifts = () => {
   

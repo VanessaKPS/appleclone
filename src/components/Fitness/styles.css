@@ -1,0 +1,9 @@
+#Fitness {
+  color: black;
+  background-color: white;
+}
+#Fitness .detail {
+  font-size: 0.5rem;
+  padding-top: 10px;
+  color: rgb(208, 122, 70);
+}

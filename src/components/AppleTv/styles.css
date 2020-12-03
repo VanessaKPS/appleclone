@@ -1,0 +1,19 @@
+.small-unit#AppleTV {
+  justify-content: flex-end;
+}
+
+#AppleTV .background-img-wrapper {
+  overflow: hidden;
+}
+
+#AppleTV .background-img {
+  object-fit: cover;
+  object-position: center top;
+}
+/*/ //////////////////////////////Media Queries /////////////////////*/
+@media (max-width: 768px) {
+  #AppleTV .background-img {
+    object-fit: cover;
+    object-position: center top;
+  }
+}

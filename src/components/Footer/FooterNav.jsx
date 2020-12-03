@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css'
 
 const FooterNav = () => {
   return <div className='footer-nav-wrapper'>

@@ -1,7 +1,7 @@
 import React from 'react';
-import AdditionalInformation from './AdditionalInformation';
-import Directory from './Directory';
-import FooterNav from './FooterNav'
+import AdditionalInformation from './Footer/AdditionalInformation.jsx';
+import Directory from './Footer/Directory.jsx';
+import FooterNav from './Footer/FooterNav.jsx'
 
 const Footer = () => {
 

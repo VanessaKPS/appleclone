@@ -1,8 +1,8 @@
         
 import React from 'react';
-import MacBookAir from './MacBookAir';
-import MacBookPro from './MacBookPro';
-import Gifts from './Gifts';
+import MacBookAir from './MacBookAir/MacBookAir.jsx';
+import MacBookPro from './MacBookPro/MacBookPro.jsx';
+import Gifts from './Gifts/Gifts.jsx';
 
 const LargeProductSection = () => {
 return (<section className='large-product'>

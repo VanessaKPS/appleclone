@@ -1,9 +1,8 @@
 import React from 'react';
-import Navbar from './NavBar';
+import Navbar from './NavBar/NavBar.jsx';
 import LargeProductSection from './LargeProductSection';
 import SmallProductSection from './SmallProductSection';
 import Footer from './FooterSection';
-
 import '../styles.css';
 
 
