@@ -10,9 +10,9 @@ const [ref, inView] = useInView({
 });
 
 return  <div ref={ref} className='background-img-wrapper'>
-  {inView && <img className='background-img'  src={props.imgURL0} alt='background-img' /> }
- {(inView && props.imgURL1)? <img className='background-img'   src={props.imgURL1} alt='background-img' />: null}
- {(inView && props.imgURL2) ?<img className='background-img'   src={props.imgURL2} alt='background-img' /> : null} 
+  {inView && <img className='background-img background-img-0'  src={props.imgURL0} alt='background-img' /> }
+ {(inView && props.imgURL1)? <img className='background-img background-img-1'   src={props.imgURL1} alt='background-img' />: null}
+ {(inView && props.imgURL2) ?<img className='background-img background-img-2'   src={props.imgURL2} alt='background-img' /> : null} 
 </div> 
 }
 

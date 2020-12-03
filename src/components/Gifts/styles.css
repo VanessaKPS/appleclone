@@ -119,3 +119,22 @@
     margin: 0 1.8rem 1.8rem;
   }
 }
+
+@media (max-width: 414px) {
+  #gifts .information-wrapper {
+    width: 90%;
+  }
+
+  .gift-icon-wrapper {
+    height: 54.6px;
+    width: 46.2px;
+    margin: auto;
+    background-image: url(../../Images/gift_large.png);
+    background-size: 231px 327.6px;
+  }
+
+  .background-img-0,
+  .background-img-2 {
+    display: none;
+  }
+}
