@@ -125,7 +125,7 @@
     margin-top: 1.5rem;
     width: 90%;
   }
-  .description {
+  #gifts .description {
     display: none;
   }
   .gift-icon-wrapper {
