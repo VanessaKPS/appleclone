@@ -136,12 +136,12 @@
     background-size: 231px 327.6px;
   }
 
-  .background-img-0,
-  .background-img-2 {
+  #gifts .background-img-0,
+  #gifts .background-img-2 {
     display: none;
   }
 
-  #gifts .background-img {
+  #gifts .background-img-1 {
     width: 180px;
     height: 180px;
     margin: 0 1.8rem 1.8rem;
