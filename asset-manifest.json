@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/appleclone/static/css/main.c20d4ce3.chunk.css",
+    "main.js": "/appleclone/static/js/main.b011c91d.chunk.js",
+    "main.js.map": "/appleclone/static/js/main.b011c91d.chunk.js.map",
+    "runtime-main.js": "/appleclone/static/js/runtime-main.92a16183.js",
+    "runtime-main.js.map": "/appleclone/static/js/runtime-main.92a16183.js.map",
+    "static/js/2.c0d1bf32.chunk.js": "/appleclone/static/js/2.c0d1bf32.chunk.js",
+    "static/js/2.c0d1bf32.chunk.js.map": "/appleclone/static/js/2.c0d1bf32.chunk.js.map",
+    "index.html": "/appleclone/index.html",
+    "static/css/main.c20d4ce3.chunk.css.map": "/appleclone/static/css/main.c20d4ce3.chunk.css.map",
+    "static/js/2.c0d1bf32.chunk.js.LICENSE.txt": "/appleclone/static/js/2.c0d1bf32.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/appleclone/static/media/gift_large.6baaecdb.png",
+    "static/media/apple_fitness.472bef01.jpg": "/appleclone/static/media/apple_fitness.472bef01.jpg",
+    "static/media/apple_tv.d7afd9b7.jpg": "/appleclone/static/media/apple_tv.d7afd9b7.jpg",
+    "static/media/homepod_mini.1efc498a.jpg": "/appleclone/static/media/homepod_mini.1efc498a.jpg",
+    "static/media/ipad__snowflake.b85868fe.png": "/appleclone/static/media/ipad__snowflake.b85868fe.png",
+    "static/media/iphone_12.c5146a10.jpg": "/appleclone/static/media/iphone_12.c5146a10.jpg",
+    "static/media/iphone_12_pro.9c058f96.jpg": "/appleclone/static/media/iphone_12_pro.9c058f96.jpg",
+    "static/media/iphone_snowflake.60166f89.png": "/appleclone/static/media/iphone_snowflake.60166f89.png",
+    "static/media/mac_mini.4fd7e875.jpg": "/appleclone/static/media/mac_mini.4fd7e875.jpg",
+    "static/media/macbook_air.d50fdd42.jpg": "/appleclone/static/media/macbook_air.d50fdd42.jpg",
+    "static/media/macbook_pro_13.12f4a3cf.jpg": "/appleclone/static/media/macbook_pro_13.12f4a3cf.jpg",
+    "static/media/watch__snowflake.9d774717.png": "/appleclone/static/media/watch__snowflake.9d774717.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92a16183.js",
+    "static/js/2.c0d1bf32.chunk.js",
+    "static/css/main.c20d4ce3.chunk.css",
+    "static/js/main.b011c91d.chunk.js"
+  ]
+}
