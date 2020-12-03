@@ -101,10 +101,15 @@
 
 /*//////////////////////////////////////////Media Queries /////////////////////////////////////*/
 @media (min-width: 992px) {
+  .gift-icon-wrapper {
+    height: 100.1px;
+    width: 84.7px;
+    background-size: 423.5px 600.6px;
+  }
   #gifts .background-img {
-    width: 350px;
-    height: 350px;
-    margin: 0 1.8rem 3rem;
+    width: 500px;
+    height: 500px;
+    margin: 0 1rem 3rem;
   }
 }
 
