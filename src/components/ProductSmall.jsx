@@ -6,7 +6,7 @@ import CTALink from './CTALink';
 
 const ProductSmall = (props) => {
 return (
-<a href={props.link0URL} className="product-wrapper small-unit " id={props.id}>
+<a href={props.link0URL} target='_blank' rel="noopener noreferrer" className="product-wrapper small-unit " id={props.id}>
 <LazyImage imgURL0={props.imgURL0} alt='background-img'  />
 
 <div className='information-wrapper'>

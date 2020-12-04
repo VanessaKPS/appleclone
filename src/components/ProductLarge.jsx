@@ -9,7 +9,7 @@ const ProductLarge = (props) => {
 
 
 return(
-<a href={props.link0URL} className="product-wrapper" id={props.id}>
+<a href={props.link0URL} target='_blank' rel="noopener noreferrer" className="product-wrapper" id={props.id}>
 <LazyImage id={props.id} imgURL0={props.imgURL0} alt='background-img' imgURL1={props.imgURL1} imgURL2={props.imgURL2} />
 <div className='information-wrapper'>
 <ProductCopy title={props.title} content={props.content} model={props.model} id={props.id}/>

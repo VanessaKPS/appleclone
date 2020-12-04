@@ -59,7 +59,7 @@ const Directory = () => {
       {(isShopClicked === true || isCondensed ===false) && shop.map((item, index)=>{
       return (
       <div className={isShopClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})}
       
@@ -72,7 +72,7 @@ const Directory = () => {
       {(isServicesClicked=== true || isCondensed===false) && services.map((item, index)=>{
       return (      
       <div className={isServicesClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})} 
       
@@ -84,7 +84,7 @@ const Directory = () => {
       {(isAccountClicked=== true || isCondensed===false) && account.map((item, index)=>{
       return (      
       <div className={isAccountClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})}
      
@@ -97,7 +97,7 @@ const Directory = () => {
       {(isStoreClicked=== true || isCondensed===false) && store.map((item, index)=>{
       return (      
       <div className={isStoreClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})}
     
@@ -110,7 +110,7 @@ const Directory = () => {
       {(isBusinessClicked=== true || isCondensed===false) && business.map((item, index)=>{
       return (
       <div className={isBusinessClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})}
       
@@ -121,7 +121,7 @@ const Directory = () => {
       {(isEducationClicked=== true || isCondensed===false) && education.map((item, index)=>{
       return (
       <div className={isEducationClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})}
       
@@ -132,7 +132,7 @@ const Directory = () => {
       {(isHealthClicked=== true || isCondensed===false) && health.map((item, index)=>{
       return (
       <div className={isHealthClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})}
       
@@ -145,7 +145,7 @@ const Directory = () => {
       {(isValuesClicked=== true || isCondensed===false) && values.map((item, index)=>{
       return ( 
       <div className={isValuesClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})}
      
@@ -156,7 +156,7 @@ const Directory = () => {
       {(isAboutClicked=== true || isCondensed===false) && about.map((item, index)=>{
       return ( 
       <div className={isAboutClicked?  'category-content': 'hide-content'}>
-        <a key ={index} href={item.url}>{item.name}</a>
+        <a key ={item} href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a>
       </div>
       )})}
       
