@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/appleclone/static/css/main.2a4e5934.chunk.css",
-    "main.js": "/appleclone/static/js/main.5146106e.chunk.js",
-    "main.js.map": "/appleclone/static/js/main.5146106e.chunk.js.map",
+    "main.js": "/appleclone/static/js/main.95e5f677.chunk.js",
+    "main.js.map": "/appleclone/static/js/main.95e5f677.chunk.js.map",
     "runtime-main.js": "/appleclone/static/js/runtime-main.92a16183.js",
     "runtime-main.js.map": "/appleclone/static/js/runtime-main.92a16183.js.map",
     "static/js/2.41fc8e11.chunk.js": "/appleclone/static/js/2.41fc8e11.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.92a16183.js",
     "static/js/2.41fc8e11.chunk.js",
     "static/css/main.2a4e5934.chunk.css",
-    "static/js/main.5146106e.chunk.js"
+    "static/js/main.95e5f677.chunk.js"
   ]
 }
