@@ -32,7 +32,7 @@ const NavBar = () => {
 
   return (
     <nav className='nav-bar'>
-    <form className={isSearchIconClicked? 'show-search-wrapper':'search-wrapper'} method='post' action={`https://www.apple.com/uk/search/${query}`}>
+    <form className={isSearchIconClicked? 'show-search-wrapper':'hide'} method='post' action={`https://www.apple.com/uk/search/${query}`}>
             <input className='search-input' onChange={handleChange} placeholder="Search apple.com" name='q' value={query} /><HiOutlineX onClick={displayNavLinks} className='show-close-menu-icon'/>
     </form>
       <ul className={isSearchIconClicked? 'hide':'nav-links'}>
